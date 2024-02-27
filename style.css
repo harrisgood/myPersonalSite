@@ -1,3 +1,18 @@
 body {
-  background-color: 637A9F;
+  background-color: 647D87;
+}
+nav {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: FAEF9B;
+}
+
+a {
+  color: rgb(255, 16, 96);
+}
+.activePage {
+  pointer-events: none;
 }
