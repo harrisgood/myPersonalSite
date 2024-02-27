@@ -1,6 +1,14 @@
 body {
   background-color: 647D87;
 }
+
+article {
+  background-color: 6DA4AA;
+  border: 20px;
+  border-color: 6DA4AA;
+  border-style: solid;
+}
+
 nav {
   height: 30px;
   display: flex;
@@ -12,13 +20,13 @@ nav {
 
 a {
   color: black;
+  font-size: larger;
 }
 
 img {
   height: 250px;
   width: 300px;
 }
-
 
 .activePage {
   pointer-events: none;
@@ -33,7 +41,7 @@ img {
 
 .flexChild {
   margin: auto;
-  text-wrap: nowrap;
+  text-wrap: wrap;
 }
 
 .centerOfPage {
@@ -47,7 +55,9 @@ img {
   padding: 10px;
 }
 
-
-/* *{
-  border: 1px solid black;
-} */
+.marginal{
+  margin-top: 25px
+}
+.appearSecond {
+  order: 2;
+}

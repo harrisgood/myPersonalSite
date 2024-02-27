@@ -4,13 +4,6 @@
     <link rel="stylesheet" href="./style.css"/>
 
     <style>
-      .flexParent {
-
-      }
-
-      .flexChild {
-        text-wrap: wrap;
-      }
       img {
         width: 450px;
       }
@@ -28,7 +21,7 @@
     <main>
 
       <article class="centerOfPage">
-          <section class="flexParent sectionBackground" style="margin-top: 25px">
+          <section class="flexParent sectionBackground marginal">
             <img src="./headScratcher.png" alt="guy scratching his head as he solves problem"/>
             <section class="flexChild">
               <h2>Coding Interest</h2>
@@ -37,31 +30,24 @@
 
           </section>
 
-          <section class="flexParent sectionBackground">
-            <img src="./bjj.jpg" alt="a bjj practioner passing his opponent's guard"/>
+          <section class="flexParent sectionBackground marginal">
+            <img src="./bjj.jpg" alt="a bjj practioner passing his opponent's guard" style="order: 2;"/>
             <section class="flexChild">  <!-- hobby section -->
               <h2>Otherwise</h2>
               <p>In my free time I'm mostly at the gym, training Jiu Jitsu, Muay Thai, Kickboxing and Wrestling or lifting weights. When I get home I usually get into some gaming with friends or by myself.</p>
-
             </section>
-
           </section>
           
-          <section class="flexParent sectionBackground">
-
-            <img src="./jerry.jpg" alt="my adorable cat jerry!"/>
-
-            <h1>My Assistant, Jerry</h1> <!-- bit about my cat maybe-->
-            <p>My partner in crime, Jerry aka Cherry aka Cherry Cola. He occasionally bursts into my room to provide creative input on whatever the current project is.</p>
+          <section class="flexParent sectionBackground marginal">
+            <img src="./jerry.jpg" alt="my adorable cat jerry!" style="height: 300px;"/>
+            <section class="flexChild">
+              <h2>My Assistant, Jerry</h2> <!-- bit about my cat-->
+              <p>My partner in crime, Jerry aka Cherry aka Cherry Cola. He occasionally bursts into my room to provide creative input on whatever the current project is.</p>
+            </section>
           </section>
-
+          
         </section>
       </article>
-
-
-
-
-
     </main>
   </body>
 </html>
