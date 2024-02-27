@@ -1,7 +1,21 @@
 <html>
   <head>
     <title>About Me</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css"/>
+
+    <style>
+      .flexParent {
+
+      }
+
+      .flexChild {
+        text-wrap: wrap;
+      }
+      img {
+        width: 450px;
+      }
+    </style>
+
   </head>
   <body>
     <header>
@@ -12,14 +26,42 @@
       </nav>
     </header>
     <main>
-      <h1>Coding Interest</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-      <h1>Otherwise</h1> <!-- hobby section -->
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <article class="centerOfPage">
+          <section class="flexParent sectionBackground" style="margin-top: 25px">
+            <img src="./headScratcher.png" alt="guy scratching his head as he solves problem"/>
+            <section class="flexChild">
+              <h2>Coding Interest</h2>
+              <p>The problem solving aspect of Coding is what really draws me in. Being able to build programs to solve tasks and then collaborate with others and create new solutions together allows us to make some really exciting projects. For now I just make simple applications and games in canvas but I would like to get a full time developing position and maybe one day make bigger games! </p>
+            </section>
 
-      <h1>My Assistant</h1> <!-- bit about my cat maybe-->
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+
+          <section class="flexParent sectionBackground">
+            <img src="./bjj.jpg" alt="a bjj practioner passing his opponent's guard"/>
+            <section class="flexChild">  <!-- hobby section -->
+              <h2>Otherwise</h2>
+              <p>In my free time I'm mostly at the gym, training Jiu Jitsu, Muay Thai, Kickboxing and Wrestling or lifting weights. When I get home I usually get into some gaming with friends or by myself.</p>
+
+            </section>
+
+          </section>
+          
+          <section class="flexParent sectionBackground">
+
+            <img src="./jerry.jpg" alt="my adorable cat jerry!"/>
+
+            <h1>My Assistant, Jerry</h1> <!-- bit about my cat maybe-->
+            <p>My partner in crime, Jerry aka Cherry aka Cherry Cola. He occasionally bursts into my room to provide creative input on whatever the current project is.</p>
+          </section>
+
+        </section>
+      </article>
+
+
+
+
+
     </main>
   </body>
 </html>
