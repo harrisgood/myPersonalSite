@@ -11,8 +11,23 @@ nav {
 }
 
 a {
-  color: rgb(255, 16, 96);
+  color: black;
 }
 .activePage {
   pointer-events: none;
 }
+
+.flexParent {
+  display: flex;
+  height: 300px;
+  align-items: center;
+}
+
+.flexChild {
+  margin: auto;
+  text-wrap: nowrap;
+}
+
+/* *{
+  border: 1px solid black;
+} */
