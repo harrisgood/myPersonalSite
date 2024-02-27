@@ -13,6 +13,13 @@ nav {
 a {
   color: black;
 }
+
+img {
+  height: 250px;
+  width: 300px;
+}
+
+
 .activePage {
   pointer-events: none;
 }
@@ -27,6 +34,18 @@ a {
   margin: auto;
   text-wrap: nowrap;
 }
+
+.centerOfPage {
+  margin: auto;
+  width: 50%;
+}
+
+.sectionBackground {
+  background-color: F6D776;
+  border-radius: 20px;
+  padding: 10px;
+}
+
 
 /* *{
   border: 1px solid black;
